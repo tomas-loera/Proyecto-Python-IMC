@@ -1,5 +1,4 @@
 #Bloque 1: En este primer bloque se solicita el nombre completo del usuario.
-<<<<<<< HEAD
 #Solicita el nombre y valida que la respuesta no sea en blanco
 while True:
     nombre = input('¿Cuál es tu nombre(s)? ')
@@ -23,17 +22,10 @@ while True:
         print('Este apartado no puede estar en blanco')
     else:
         break
-=======
-#Se espera que todos sean del tipo string
-nombre = input('¿Cuál es tu nombre(s)? ')
-apellido_paterno = input('¿Cuál es tu apellido paterno? ')
-apellido_materno = input('¿Cuál es tu apellido materno? ')
->>>>>>> 947ffbcc70e45bdd229926a075d3246901b21176
 
 #Bloque 2: Esta variable concatena los tres datos solicitados en el bloque anterior
-nombre_completo = nombre, apellido_paterno, apellido_materno
+nombre_completo = nombre, apellidoPaterno, apellidoMaterno
 
-<<<<<<< HEAD
 #Bloque 2: Esta variable concatena los tres datos solicitados en el bloque anterior
 nombre_completo = nombre, apellidoPaterno, apellidoMaterno
 
@@ -77,30 +69,14 @@ while True:
 imc=peso/estatura**2
 
 
-=======
-#Bloque 3: En este segundo bloque se solicitan los datos numéricos
-edad = int(input('¿Cuál  es tu edad? '))#Se hace la conversión a entero
-peso = int(input('¿Cuál es tu peso? '))#Se hace la conversión a entero
-estatura = float(input('¿Cuál es tu estatura? '))#Se hace la conversión a float
-
-#Bloque 4: Se hace el calculo del IMC
-imc=peso/estatura**2
-
->>>>>>> 947ffbcc70e45bdd229926a075d3246901b21176
 #Bloque 5: Se imprime el resultado
 print(f"""
 +--------------------+
 {" ".join(nombre_completo).title()}
-<<<<<<< HEAD
 Edad: {edad} años
 Estatura: {estatura} mts
 Peso: {peso} kg
 IMC: {imc:.2f}
-=======
-Edad: {edad}
-Estatura: {estatura}
-Peso: {peso}\nIMC: {imc:.2f}
->>>>>>> 947ffbcc70e45bdd229926a075d3246901b21176
 Gracias por usar esta calculadora.
 +--------------------+
 """)
