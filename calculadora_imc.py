@@ -9,22 +9,22 @@ while True:
 
 #Solicita el apellido paterno y valida que la respuesta no esté en blanco
 while True:
-    apellidoPaterno = input('¿Cuál es tu apellido paterno? ')
-    if not apellidoPaterno.strip():
+    apellido_paterno = input('¿Cuál es tu apellido paterno? ')
+    if not apellido_paterno.strip():
         print('Este apartado no puede estar en blanco')
     else:
         break
 
 #Solicita el apellido materno y valida que la respuesta no este en blanco
 while True:
-    apellidoMaterno = input('¿Cuál es tu apellido materno? ')
-    if not apellidoMaterno.strip():
+    apellido_materno = input('¿Cuál es tu apellido materno? ')
+    if not apellido_materno.strip():
         print('Este apartado no puede estar en blanco')
     else:
         break
 
 #Bloque 2: Esta variable concatena los tres datos solicitados en el bloque anterior
-nombre_completo = nombre, apellidoPaterno, apellidoMaterno
+nombre_completo = nombre, apellido_paterno, apellido_materno
 
 
 #Bloque 3: En este segundo bloque se solicitan los datos numéricos
