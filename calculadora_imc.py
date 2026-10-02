@@ -26,9 +26,6 @@ while True:
 #Bloque 2: Esta variable concatena los tres datos solicitados en el bloque anterior
 nombre_completo = nombre, apellidoPaterno, apellidoMaterno
 
-#Bloque 2: Esta variable concatena los tres datos solicitados en el bloque anterior
-nombre_completo = nombre, apellidoPaterno, apellidoMaterno
-
 
 #Bloque 3: En este segundo bloque se solicitan los datos numéricos
 #Pide la edad y se asegura de que sea un valor válido
